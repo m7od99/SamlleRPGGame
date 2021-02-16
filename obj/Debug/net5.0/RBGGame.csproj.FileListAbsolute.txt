@@ -1,0 +1,16 @@
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\bin\Debug\net5.0\RBGGame.exe
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\bin\Debug\net5.0\RBGGame.deps.json
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\bin\Debug\net5.0\RBGGame.runtimeconfig.json
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\bin\Debug\net5.0\RBGGame.runtimeconfig.dev.json
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\bin\Debug\net5.0\RBGGame.dll
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\bin\Debug\net5.0\ref\RBGGame.dll
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\bin\Debug\net5.0\RBGGame.pdb
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\obj\Debug\net5.0\RBGGame.csprojAssemblyReference.cache
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\obj\Debug\net5.0\RBGGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\obj\Debug\net5.0\RBGGame.AssemblyInfoInputs.cache
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\obj\Debug\net5.0\RBGGame.AssemblyInfo.cs
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\obj\Debug\net5.0\RBGGame.csproj.CoreCompileInputs.cache
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\obj\Debug\net5.0\RBGGame.dll
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\obj\Debug\net5.0\ref\RBGGame.dll
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\obj\Debug\net5.0\RBGGame.pdb
+C:\Users\m7od9\Desktop\Myfolders\2021\c#\RBGGame\obj\Debug\net5.0\RBGGame.genruntimeconfig.cache
