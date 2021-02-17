@@ -19,7 +19,7 @@ namespace RBGGame
                   return new Monster();
             }
 
-            public string RandomAttack()
+            public static string RandomAttack()
             {
                   var random = new Random().Next(0, 2);
                   switch (random)

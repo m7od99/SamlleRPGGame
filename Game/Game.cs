@@ -6,10 +6,6 @@ namespace RBGGame
 {
       public class Game
       {
-            private int Score =0;
-            private int win = 0;
-            private int lose = 0;
-
             public static void Run()
             {
                   var hero = Hero.GetHero();
@@ -21,10 +17,48 @@ namespace RBGGame
                   Console.WriteLine("****************************************************************");
                   ShowStats.ShowMonsterStatts(monster);
 
-                  while (hero.HPNow > 0 || monster.HPNow >0)
+                  while (hero.HPNow > 0 && monster.HPNow > 0)
                   {
+                        ShowStats.BattelHeroStats(hero);
+                        ShowStats.BattelMonsterStats(monster);
                         Console.WriteLine("Enter a for Attack , b for Block , f for Fire Attack");
-                        string chose = Console.ReadLine().ToLower();
+                        string answer = Console.ReadLine().ToLower();
+                        string monsterBehaver = Monster.RandomAttack();
+                        if (answer == "a")
+                        {
+                              monster.HPNow = monster.HPNow - hero.Attack;
+                        }
+                        else if (answer == "f" && hero.MPNow >= 2)
+                        {
+                              hero.MPNow = hero.MPNow - 2;
+                              if (monsterBehaver != "block")
+                              {
+                                    monster.HPNow = monster.HPNow - hero.FireAttack;
+
+                              }
+                        }
+                        if (monsterBehaver == "rockattack" && monster.MPNow >= 2)
+                        {
+                              monster.MPNow = monster.MPNow - 2;
+                              if (answer != "b")
+                              {
+                                    hero.HPNow = hero.HPNow - monster.RockAttack;
+                              }
+                        }
+                        if (monsterBehaver == "attack")
+                        {
+                              hero.HPNow = hero.HPNow - monster.Attack;
+                        }
+                        ShowStats.BattelHeroStats(hero);
+                        ShowStats.BattelMonsterStats(monster);
+                  }
+                  if (monster.HPNow <= 0)
+                  {
+                        Console.WriteLine("You Win");
+                  }
+                  else
+                  {
+                        Console.WriteLine("You Lose");
                   }
             }
 

@@ -6,7 +6,7 @@ namespace RBGGame
     {
         static void Main(string[] args)
         {
-          
+          Game.Run();
         }
     }
 }

@@ -5,6 +5,7 @@ namespace RBGGame
       {
             public static void ShowHeroStatts(Hero hero)
             {
+                  Console.WriteLine("Hero Stats");
                   Console.WriteLine("HP : " + hero.HP + " / " + hero.HPNow);
                   Console.WriteLine("MP : " + hero.MP + " / " + hero.MPNow);
                   Console.WriteLine("Attack : " + hero.Attack + "|| Fire Attack : " + hero.FireAttack);
@@ -12,6 +13,7 @@ namespace RBGGame
 
             public static void ShowMonsterStatts(Monster monster)
             {
+                  Console.WriteLine("Monster Stats");
                   Console.WriteLine("HP : " + monster.HP + " / " + monster.HPNow);
                   Console.WriteLine("MP : " + monster.MP + " / " + monster.MPNow);
                   Console.WriteLine("Attack : " + monster.Attack + "|| rock Attack : " + monster.RockAttack);
